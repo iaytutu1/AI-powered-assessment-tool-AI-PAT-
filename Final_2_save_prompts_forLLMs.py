@@ -8,8 +8,7 @@ file_path = 'FINAL TXT (1-73).xlsx'
 df = pd.read_excel(file_path, sheet_name = 'Sheet1')
 
 # Set your OpenAI API key
-openai.api_key = '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'
-
+openai.api_key =""
 # Define the path to the prompts folder
 script_dir = os.path.dirname(os.path.abspath(__file__))
 prompts_dir = os.path.join(script_dir, 'prompts\\Q2\\')
